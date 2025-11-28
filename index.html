@@ -7,8 +7,9 @@
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h2>Science Instrument Usage Record</h2>
-  <form id="usageForm">
+  <div class="container">
+    <h2>Science Instrument Usage Record</h2>
+    <form id="usageForm">
     <label>Nama Peminjam</label>
     <input type="text" name="nama_peminjam" required />
 
@@ -34,9 +35,9 @@
     <input type="email" name="email" required />
 
     <button type="submit">Submit</button>
-  </form>
-
-  <p id="msg"></p>
+</form>
+<p id="msg"></p>
+</div> <!-- container end -->
 
   <script>
     const form = document.getElementById("usageForm");
